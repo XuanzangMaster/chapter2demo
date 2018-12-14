@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="oracle_local">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.11">
+    <root id="1">
+      <ServerVersion>11.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+      <IntrospectionTimestamp>2018-12-10.23:51:52</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-11-23.23:20:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.23:51:49</ModifiedTimestamp>
+      <CommentsHash>1703106279061</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="HR">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="OE">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="IX">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="SH">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="PM">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="BI">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="39" parent="2" name="SEQ_DEPARTMENT">
+      <ObjectId>76042</ObjectId>
+      <CreatedTimestamp>2018-11-24.04:15:29</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-24.04:15:29</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="40" parent="2" name="SEQ_EMPLOYEE">
+      <ObjectId>76040</ObjectId>
+      <CreatedTimestamp>2018-11-24.04:15:29</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-24.04:15:29</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="41" parent="2" name="SEQ_WF_EMPLOYEE">
+      <ObjectId>76037</ObjectId>
+      <CreatedTimestamp>2018-11-23.23:20:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-23.23:20:42</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="42" parent="2" name="DEPT">
+      <ObjectId>76457</ObjectId>
+      <CreatedTimestamp>2018-11-27.19:01:00</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-04.17:22:00</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="43" parent="2" name="EMPLOYEE">
+      <ObjectId>76455</ObjectId>
+      <CreatedTimestamp>2018-11-27.17:41:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-28.21:36:59</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="2" name="EMPLOYEE_DEV">
+      <ObjectId>76556</ObjectId>
+      <Comment>研发部门的员工</Comment>
+      <CreatedTimestamp>2018-11-28.21:28:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-28.21:43:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="2" name="STAFF">
+      <ObjectId>77382</ObjectId>
+      <CreatedTimestamp>2018-12-08.01:20:00</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.19:21:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="2" name="TB_LOGIN_LOG">
+      <ObjectId>77683</ObjectId>
+      <CreatedTimestamp>2018-12-10.23:51:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.23:51:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="2" name="TB_USER">
+      <ObjectId>77681</ObjectId>
+      <CreatedTimestamp>2018-12-10.23:47:28</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.23:47:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="48" parent="42" name="DEPT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="42" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="50" parent="42" name="PROVINCE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(16 byte)|0s</DataType>
+    </column>
+    <column id="51" parent="42" name="CITY">
+      <Position>4</Position>
+      <DataType>VARCHAR2(16 byte)|0s</DataType>
+    </column>
+    <column id="52" parent="42" name="USER_SIG">
+      <Position>5</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <index id="53" parent="42" name="DEPT_KEY">
+      <ObjectId>76458</ObjectId>
+      <CreatedTimestamp>2018-11-27.19:03:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-27.19:03:05</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DEPT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="42" name="DEPT_KEY">
+      <ModifiedTimestamp>2018-11-27.19:03:05</ModifiedTimestamp>
+      <ColNames>DEPT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DEPT_KEY</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="43" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="43" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="57" parent="43" name="LOCATION">
+      <Position>3</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="58" parent="43" name="DEPT">
+      <Position>4</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <index id="59" parent="43" name="ID_KEY">
+      <ObjectId>76456</ObjectId>
+      <CreatedTimestamp>2018-11-27.17:45:01</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-27.17:45:01</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="43" name="ID_KEY">
+      <ModifiedTimestamp>2018-11-27.17:45:01</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ID_KEY</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="43" name="DPT_F_KEY">
+      <ModifiedTimestamp>2018-11-27.23:01:01</ModifiedTimestamp>
+      <ColNames>DEPT</ColNames>
+      <RefSchemaName>SCOTT</RefSchemaName>
+      <RefTableName>DEPT</RefTableName>
+      <RefKeyName>DEPT_KEY</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="62" parent="44" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+    </column>
+    <column id="63" parent="44" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="64" parent="44" name="DEPT">
+      <Position>3</Position>
+      <Comment>部门编号</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="65" parent="45" name="STAFF_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="45" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="67" parent="45" name="BIRTHDAY">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="68" parent="45" name="SEX">
+      <Position>4</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="69" parent="45" name="DEPT">
+      <Position>5</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <index id="70" parent="45" name="STAFF_STAFF_ID_PK">
+      <ObjectId>77680</ObjectId>
+      <CreatedTimestamp>2018-12-10.19:04:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.19:04:02</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STAFF_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="71" parent="45" name="STAFF_NAME_UK">
+      <ObjectId>77679</ObjectId>
+      <CreatedTimestamp>2018-12-10.18:25:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.18:25:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="45" name="STAFF_STAFF_ID_PK">
+      <ModifiedTimestamp>2018-12-10.19:04:02</ModifiedTimestamp>
+      <ColNames>STAFF_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>STAFF_STAFF_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="73" parent="45" name="STAFF_NAME_UK">
+      <ModifiedTimestamp>2018-12-10.18:25:41</ModifiedTimestamp>
+      <ColNames>NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>STAFF_NAME_UK</UnderlyingIndexName>
+    </key>
+    <foreign-key id="74" parent="45" name="STAFF_DEPT_FK">
+      <ModifiedTimestamp>2018-12-10.19:21:18</ModifiedTimestamp>
+      <ColNames>DEPT</ColNames>
+      <RefSchemaName>SCOTT</RefSchemaName>
+      <RefTableName>DEPT</RefTableName>
+      <RefKeyName>DEPT_KEY</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="75" parent="45" name="STAFF_SEX_CK">
+      <ModifiedTimestamp>2018-12-10.18:50:02</ModifiedTimestamp>
+      <ColNames>SEX</ColNames>
+      <Predicate>sex=&apos;male&apos;</Predicate>
+    </check>
+    <column id="76" parent="46" name="LOGIN_LOG_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="46" name="USER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+    </column>
+    <column id="78" parent="46" name="LOGIN_IP">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="79" parent="46" name="LOGIN_DATE">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <index id="80" parent="46" name="TB_LOGIN_LOG_LOGIN_LOG_ID_PK">
+      <ObjectId>77684</ObjectId>
+      <CreatedTimestamp>2018-12-10.23:51:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.23:51:49</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>LOGIN_LOG_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="81" parent="46" name="TB_LOGIN_LOG_LOGIN_LOG_ID_PK">
+      <ModifiedTimestamp>2018-12-10.23:51:49</ModifiedTimestamp>
+      <ColNames>LOGIN_LOG_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TB_LOGIN_LOG_LOGIN_LOG_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="82" parent="46" name="TB_LOGIN_LOG_USER_ID">
+      <ModifiedTimestamp>2018-12-10.23:51:49</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>SCOTT</RefSchemaName>
+      <RefTableName>TB_USER</RefTableName>
+      <RefKeyName>TB_USER_USER_ID_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="83" parent="47" name="USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="47" name="USERNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="85" parent="47" name="PASSWORD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="86" parent="47" name="CREDITS">
+      <Position>4</Position>
+      <DataType>NUMBER(8 digit)|0s</DataType>
+    </column>
+    <column id="87" parent="47" name="LAST_IP">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="88" parent="47" name="LAST_DATE">
+      <Position>6</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <index id="89" parent="47" name="TB_USER_USER_ID_PK">
+      <ObjectId>77682</ObjectId>
+      <CreatedTimestamp>2018-12-10.23:47:28</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.23:47:28</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="47" name="TB_USER_USER_ID_PK">
+      <ModifiedTimestamp>2018-12-10.23:47:28</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TB_USER_USER_ID_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
